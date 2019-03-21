@@ -165,7 +165,7 @@ enum class PlayPromiseRejectReason {
 
 // Limits the range of media playback rate.
 const double kMinRate = 0.0625;
-const double kMaxRate = 16.0;
+const double kMaxRate = 512.0;
 
 void ReportContentTypeResultToUMA(String content_type,
                                   MIMETypeRegistry::SupportsType result) {
